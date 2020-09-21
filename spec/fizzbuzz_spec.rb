@@ -14,6 +14,6 @@ describe "fizzbuzz" do
   	expect(fizzbuzz(4)).to eq 4
   end
   it 'returns "Not a number" when passed anything but a number' do
-    expect(fizzbuzz("dog")).to eq 'Not a number'
+    expect(fizzbuzz("dog")).to eq 'Enter a Integer'
   end
 end

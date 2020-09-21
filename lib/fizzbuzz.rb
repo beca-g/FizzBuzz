@@ -5,6 +5,9 @@ def fizzbuzz(number)
 		return 'fizz'
 	elsif number % 5 == 0
 		return 'buzz'
-	else return number
+	elsif number.is_a? Integer
+	 	return number
+	else 
+		return "Enter a Integer"
 	end
 end
